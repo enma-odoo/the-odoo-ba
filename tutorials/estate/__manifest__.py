@@ -3,9 +3,10 @@
     'version': '1.0',
     'category': 'Real Estate',
     'summary': 'Manage real estate properties and offers',
-    'website': 'https://www.odoo.com/industries/real-estate-agency'
+    'website': 'https://www.odoo.com/industries/real-estate-agency',
     'description': 'A custom module to manage real estate properties, track offers, and handle buyer assignments.',
-    'depends': ['base'],
-    'installable': True
+    'depends': ['base_setup'],
+    'installable': True,
     'application': False,
+    'author': 'Enock Maseru'
 }
