@@ -14,5 +14,5 @@
     'installable': True,
     'application': True,
     'author': 'Enock Maseru',
-    'license': 'MIT',
+    'license': 'Other OSI approved licence',
 }
