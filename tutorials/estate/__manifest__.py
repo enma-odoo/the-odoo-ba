@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# See LICENSE file for full copyright and licensing details.
+
 {
     'name': 'Real Estate',
     'version': '1.0',
@@ -5,8 +8,11 @@
     'summary': 'Manage real estate properties and offers',
     'website': 'https://www.odoo.com/industries/real-estate-agency',
     'description': 'A custom module to manage real estate properties, track offers, and handle buyer assignments.',
-    'depends': ['base_setup'],
+    'depends': [
+        'base_setup'
+        ],
     'installable': True,
-    'application': False,
-    'author': 'Enock Maseru'
+    'application': True,
+    'author': 'Enock Maseru',
+    'license': 'MIT',
 }
