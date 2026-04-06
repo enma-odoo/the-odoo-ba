@@ -19,7 +19,7 @@ This module allows you to:
         'base',
     ],
     'data': [
-
+        'security/ir.model.access.csv',
     ],
     'installable': True,
     'application': True,
