@@ -1,18 +1,27 @@
 # -*- coding: utf-8 -*-
-# See LICENSE file for full copyright and licensing details.
-
 {
     'name': 'Real Estate',
     'version': '1.0',
     'category': 'Real Estate',
     'summary': 'Manage real estate properties and offers',
-    'website': 'https://www.odoo.com/industries/real-estate-agency',
-    'description': 'A custom module to manage real estate properties, track offers, and handle buyer assignments.',
+    'description': """
+Real Estate Management
+======================
+This module allows you to:
+- Manage real estate properties
+- Track offers from potential buyers
+- Handle buyer assignments
+    """,
+    'author': 'Enock Maseru',
+    'website': 'https://www.eclickafrica.com',
+    'license': 'LGPL-3',
     'depends': [
-        'base_setup'
-        ],
+        'base',
+    ],
+    'data': [
+
+    ],
     'installable': True,
     'application': True,
-    'author': 'Enock Maseru',
-    'license': 'Other OSI approved licence',
+    'auto_install': False,
 }
