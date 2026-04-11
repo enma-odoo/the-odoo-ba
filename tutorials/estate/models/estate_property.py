@@ -7,6 +7,10 @@ class EstateProperty(models.Model):
     # _name defines the name of the database table (replaces '.' with '_', so it becomes estate_property)
     _name = "estate.property"
     _description = "Real Estate Property"
+    _check_price = models.Constraint(
+        "CHECK(price > 0)",
+        "The offer price must be strictly positive"
+    )
 
     # Basic Fields
     name = fields.Char(required=True)
